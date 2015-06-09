@@ -463,6 +463,7 @@ VpaidVideoPlayer.prototype.muteButtonOnClick_ = function() {
     this.attributes_['volume'] = 0.0;
   }
   this.callEvent_('AdVolumeChange');
+  skipAd();
 };
 
 
