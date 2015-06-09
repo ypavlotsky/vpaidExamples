@@ -93,19 +93,19 @@ Application.prototype.bind_ = function(thisObj, fn) {
 };
 
 Application.prototype.requestVideoSample_ = function() {
-  this.makeRequest_('http://ryanthompson591.github.io/vpaidExamples/xmlExamples/VpaidVideoPlayerSample.xml');
+  this.makeRequest_('http://ypavlotsky.github.io/vpaidExamples/xmlExamples/VpaidVideoPlayerSample.xml');
 };
 
 Application.prototype.requestNonLinearSample_ = function() {
-  this.makeRequest_('http://ryanthompson591.github.io/vpaidExamples/xmlExamples/NonLinearSample.xml');
+  this.makeRequest_('http://ypavlotsky.github.io/vpaidExamples/xmlExamples/NonLinearSample.xml');
 };
 
 Application.prototype.requestSample_ = function() {
-  this.makeRequest_('http://ryanthompson591.github.io/vpaidExamples/xmlExamples/TesterSample.xml');
+  this.makeRequest_('http://ypavlotsky.github.io/vpaidExamples/xmlExamples/TesterSample.xml');
 };
 
 Application.prototype.requestGameSample_ = function() {
-  this.makeRequest_('http://ryanthompson591.github.io/vpaidExamples/xmlExamples/GameSample.xml');
+  this.makeRequest_('http://ypavlotsky.github.io/vpaidExamples/xmlExamples/GameSample.xml');
 };
 
 Application.prototype.makeRequest_ = function(url) {
